@@ -1,65 +1,125 @@
 /*
   Colour Palette
-  - Dark green: #060 - rgb(0, 100, 0)
-  - Dark red: #600 - rgb(100, 0, 0)
+  - Light orange: #FFA644 - rgba(255,166,68,1.00)
+  - Dark orange: #FF8F13 - rgba(255,143,19,1.00)
+  - Light purple: #FF8F13 - rgba(191,174,255,1.00)
+  - Dark purple: #7D5BFF - rgba(125,91,255,1.00)
+  - Gray: #666 - rgba(102,102,102,1.00)
 */
 
+@charset "UTF-8";
+/* CSS Document */
+
 html {
-  font: normal 150%/0.0625 Elsie, serif; /* 24px/1.5px */
+  font: normal 100%/1.5 'Raleway', sans-serif; /* 16px/24px */
 }
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
-  margin: 0 0 0.0625rem;
+  margin: 0 0 0.9666666666666667rem;
 }
 
 .yotta {
   font-size: 2.2807rem;
-  line-height: 1.0139;
+  line-height: 1.2715;
 }
 
 .zetta {
   font-size: 2.0273rem;
-  line-height: 1.0174;
+  line-height: 1.4305;
 }
 
 h1, .exa {
   font-size: 1.8020rem;
-  line-height: 1.0058;
+  line-height: 1.0729;
 }
 
 h2, .peta {
   font-size: 1.6018rem;
-  line-height: 1.0145;
+  line-height: 1.2070;
 }
 
 h3, .tera {
   font-size: 1.4238rem;
-  line-height: 1.0096;
+  line-height: 1.3578;
 }
 
 h4, .giga {
   font-size: 1.2656rem;
-  line-height: 1.0370;
+  line-height: 1.5276;
 }
 
 h5, .mega {
   font-size: 1.1250rem;
-  line-height: 1.0000;
+  line-height: 1.7185;
 }
 
 h6, .kilo {
   font-size: 1.0000rem;
-  line-height: 1.0000;
+  line-height: 1.9333;
 }
 
 small, .milli {
   font-size: 0.8889rem;
-  line-height: 1.0547;
+  line-height: 1.0875;
 }
 
 .micro {
   font-size: 0.7901rem;
-  line-height: 1.0283;
+  line-height: 1.2234;
+}
+
+h1, h2, h3, h4, h5, h6,
+.brand {
+	color: #FFA644;
+	font-family: 'Elsie', sans-serif;
+}
+
+.brand-family {
+	font-family: 'Elsie', sans-serif;
+}
+
+.brand-color {
+	color: #FF8F13;
+}
+
+::selection {
+	background-color: #FF8F13;
+	color: #fff;
+}
+
+a,
+a:link {
+	color: #BFAEFF;
+	text-decoration: none;
+	border-bottom: 0.05em solid rgba(191,174,255,1.00);
+	transition: all 200ms linear;
+}
+
+a:visited {
+	color: #7D5BFF;
+	border-bottom-color: #7D5BFF;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #FF8F13;
+	border-bottom-color: #FF8F13;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	position: relative;
+}
+
+ul li:before {
+	content: "✖";
+	color: #666;
+	position: absolute;
+	left: -1.2em;
 }
