@@ -123,3 +123,34 @@ ul li:before {
 	position: absolute;
 	left: -1.2em;
 }
+
+.em{
+	font-style: italic;
+}
+
+.strong{
+	font-weight: bold;
+}
+
+.center{
+	padding-bottom: 2rem;
+}
+
+.logo{
+	width: auto;
+	display: block;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list{
+	text-align: center;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+blockquote {
+	display: inline-flex;
+}
