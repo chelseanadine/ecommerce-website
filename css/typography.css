@@ -4,7 +4,9 @@
   - Dark orange: #FF8F13 - rgba(255,143,19,1.00)
   - Light purple: #FF8F13 - rgba(191,174,255,1.00)
   - Dark purple: #7D5BFF - rgba(125,91,255,1.00)
+  - Highlight green: #00F60B - rgba(0,246,11,1.00)
   - Gray: #666 - rgba(102,102,102,1.00)
+  - Background gray: #E6E6E6 - rgba(230,230,230,1.00)
 */
 
 @charset "UTF-8";
@@ -12,6 +14,7 @@
 
 html {
   font: normal 100%/1.5 'Raleway', sans-serif; /* 16px/24px */
+  background-color: #E6E6E6;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -91,9 +94,9 @@ h1, h2, h3, h4, h5, h6,
 
 a,
 a:link {
-	color: #BFAEFF;
+	color: #FFA644;
 	text-decoration: none;
-	border-bottom: 0.05em solid rgba(191,174,255,1.00);
+	border-bottom: 0.05em solid #FFA644;
 	transition: all 200ms linear;
 }
 
@@ -105,8 +108,8 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-	color: #FF8F13;
-	border-bottom-color: #FF8F13;
+	color: #BFAEFF;
+	border-bottom-color: #7D5BFF;
 }
 
 ul {
@@ -152,5 +155,21 @@ ul li:before {
 }
 
 blockquote {
-	display: inline-flex;
+	display: inline;
+}
+
+mark {
+	background-color: #00F60B;
+}
+
+dl {
+	display: block;
+}
+
+dt {
+	display: block;
+}
+
+dd {
+	display: block;
 }
