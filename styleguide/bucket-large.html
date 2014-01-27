@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Large Bucket Styleguide</title>
+<link rel="stylesheet" href="../flexslider/flexslider.css" type="text/css">
 <link href='../css/buckets.css' rel='stylesheet'>
 <link href='../css/buttons.css' rel='stylesheet'>
 <link href='../css/forms.css' rel='stylesheet'>
@@ -10,7 +11,6 @@
 <link href='../css/media-object.css' rel='stylesheet'>
 <link href='../css/product-list.css' rel='stylesheet'>
 <link href='../css/typography.css' rel='stylesheet'>
-<link href='../css/flexslider.css' rel='stylesheet'>
 <link href='http://fonts.googleapis.com/css?family=Elsie' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Creepster' rel='stylesheet' type='text/css'>
@@ -21,13 +21,13 @@
 	<div class="flexslider">
   		<ul class="slides">
     		<li>
-      			<img src="http://placehold.it/500x500" alt="">
+      			<img src="http://placehold.it/700x500" alt="">
     		</li>
 			<li>
-      			<img src="http://placehold.it/500x500" alt="">
+      			<img src="http://placehold.it/700x500" alt="">
    			</li>
     		<li>
-      			<img src="http://placehold.it/500x500" alt="">
+      			<img src="http://placehold.it/700x500" alt="">
     		</li>
   		</ul>
 	</div>
@@ -35,6 +35,18 @@
 	<section>
 		<div class="box2"><h2>Sale! 50% Off!</h2></div>
 	</section>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script src="../flexslider/jquery.flexslider-min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+  			$(window).load(function() {
+    			$('.flexslider').flexslider({
+					animation: "slide",
+					slideshowSpeed: 3000,
+					pauseOnHover: true,
+				});
+  			});
+		</script>
 
 </body>
 </html>
