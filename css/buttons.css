@@ -33,3 +33,13 @@
 	background-color: #00F60B;
 	background-image: linear-gradient(to bottom, #7D5BFF, #000000);
 }
+
+.search {
+	height: 1.5rem;
+	width: 9rem;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-radius: 20px;
+	float: right;
+}
