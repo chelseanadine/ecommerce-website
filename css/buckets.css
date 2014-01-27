@@ -1,3 +1,43 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*
+  Colour Palette
+  - Light orange: #FFA644 - rgba(255,166,68,1.00)
+  - Dark orange: #FF8F13 - rgba(255,143,19,1.00)
+  - Light purple: #BFAEFF - rgba(191,174,255,1.00)
+  - Dark purple: #7D5BFF - rgba(125,91,255,1.00)
+  - Highlight green: #00F60B - rgba(0,246,11,1.00)
+  - Darker green: #00D709 - rgba(0,215,9,1.00)
+  - Gray: #666 - rgba(102,102,102,1.00)
+  - Background gray: #E6E6E6 - rgba(230,230,230,1.00)
+*/
+
+.flexslider{
+	max-width: 50rem;
+	margin: 50px auto;
+}
+
+.ease-all{
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;   
+}
+
+.box{
+	height: 300px;
+	width: 500px;
+	margin-left: 450px;
+	background-color: #BFAEFF;
+	border: 10px solid #666666;
+}
+
+.box2{
+	height: 500px;
+	width: 700px;
+	margin-left: 350px;
+	background-color: #BFAEFF;
+	border: 10px solid #666666;
+}
