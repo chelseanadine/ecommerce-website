@@ -2,9 +2,10 @@
   Colour Palette
   - Light orange: #FFA644 - rgba(255,166,68,1.00)
   - Dark orange: #FF8F13 - rgba(255,143,19,1.00)
-  - Light purple: #FF8F13 - rgba(191,174,255,1.00)
+  - Light purple: #BFAEFF - rgba(191,174,255,1.00)
   - Dark purple: #7D5BFF - rgba(125,91,255,1.00)
   - Highlight green: #00F60B - rgba(0,246,11,1.00)
+  - Darker green: #00D709 - rgba(0,215,9,1.00)
   - Gray: #666 - rgba(102,102,102,1.00)
   - Background gray: #E6E6E6 - rgba(230,230,230,1.00)
 */
@@ -76,7 +77,7 @@ small, .milli {
 h1, h2, h3, h4, h5, h6,
 .brand {
 	color: #FFA644;
-	font-family: 'Elsie', sans-serif;
+	font-family: 'Creepster', sans-serif;
 }
 
 .brand-family {
