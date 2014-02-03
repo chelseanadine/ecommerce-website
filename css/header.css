@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+  Colour Palette
+  - Light orange: #FFA644 - rgba(255,166,68,1.00)
+  - Dark orange: #FF8F13 - rgba(255,143,19,1.00)
+  - Light purple: #BFAEFF - rgba(191,174,255,1.00)
+  - Dark purple: #7D5BFF - rgba(125,91,255,1.00)
+  - Highlight green: #00F60B - rgba(0,246,11,1.00)
+  - Darker green: #00D709 - rgba(0,215,9,1.00)
+  - Gray: #666 - rgba(102,102,102,1.00)
+  - Background gray: #E6E6E6 - rgba(230,230,230,1.00)
+*/
+
+header {
+	display: block;
+	background-color: #666;
+	color: #FF8F13;
+	text-decoration: none;
+	padding: 1rem;
+}
+
+.main {
+	font-weight: 300;
+	width: 90%;
+	margin: 1rem auto;
+	text-align: justify;
+}
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+	display: block;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 10px;
+	right: 5%;
+	background: white url('../images/nav-icon.svg') no-repeat center center;	
+}
+
+.nav a, 
+.nav a:link,
+.nav a:visited{
+	display: block;
+	background-color: #666666;
+	text-align: center;
+	color: #BFAEFF;
+	text-decoration: none;
+	padding: 1rem;
+	border-top: 1px solid #ffffff;
+	text-transform: uppercase;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a active{
+	background-color: #E6E6E6;
+	text-align: center;
+	color: #FF8F13;
+	text-transform: lowercase;
+}
+
+.nav-top[data-state="expanded"]{
+	display: block;
+}
+
+.nav-top{
+	display: none;
+}
+
+.logo{
+	width: auto;
+	display: block;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
