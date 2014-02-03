@@ -46,7 +46,7 @@ header {
 	display: block;
 	background-color: #666666;
 	text-align: center;
-	color: #BFAEFF;
+	color: #00F60B;
 	text-decoration: none;
 	padding: 1rem;
 	border-top: 1px solid #ffffff;
@@ -59,7 +59,7 @@ header {
 .nav a active{
 	background-color: #E6E6E6;
 	text-align: center;
-	color: #00F60B;
+	color: #FF8F13;
 	text-transform: lowercase;
 	font-family: "Raleway", sans-serif;
 }
