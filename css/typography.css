@@ -126,7 +126,7 @@ ul li {
 }
 
 ul li:before {
-	content: "✖";
+	/* content: "✖"; UPDATE LATER*/
 	color: #666;
 	position: absolute;
 	left: -1.2em;
