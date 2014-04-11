@@ -1,3 +1,9 @@
-@charset "UTF-8";
-/* CSS Document */
+---
+---
 
+{% include css/buttons.css%}
+{% include css/list-group.css%}
+{% include css/media-object.css%}
+{% include css/header.css%}
+{% include css/footer.css%}
+/* Make the same order as your includes in your default.html*/
