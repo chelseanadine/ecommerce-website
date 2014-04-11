@@ -11,45 +11,45 @@ User testing was conducted by Chelsea Smith on April 4th-April 6th between the t
 
 ## Tasks
 
-1. {First task description here}
-2. {Second task description here}
-3. {Third task description here}
+1. Click a "Buy Now" button on the buttons.html page
+2. Click the "Home" page link on the header.html page
+3. Click the "Keep Shopping" button on the cart.html page
 
 ---
 
 ## Individual Results & Observations
 
-### {Jane Doe}
+### Adriana Granieri
 
 - {She completed the task as expected…}
 - {She had troubles completing a specific task…}
 - etc.
 
-### {John Doe}
+### Kathrine Greenberg
 
 - {He completed the task as expected…}
 - {He had troubles completing a specific task…}
 - etc.
 
-### {Jordan Doe}
+### Sonal Sharma
 
 - {They completed the task as expected…}
 - {They had troubles completing a specific task…}
 - etc.
 
-### {Theresa Doe}
+### Jenna McLean
 
 - {She completed the task as expected…}
 - {She had troubles completing a specific task…}
 - etc.
 
-### {Todd Doe}
+### Elisa Koon
 
 - {He completed the task as expected…}
 - {He had troubles completing a specific task…}
 - etc.
 
-### {Taylor Doe}
+### Rachel Lin
 
 - {They completed the task as expected…}
 - {They had troubles completing a specific task…}
