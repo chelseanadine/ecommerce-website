@@ -1,13 +1,13 @@
 # Accessibility Testing Report
 
-User testing was conducted by {your name} on {specific date} between the times of {start time} and {end time} with the following participants:
+User testing was conducted by Chelsea Smith on April 4th-April 6th between the times of 2-2:30 PM (4th) and 8-9 PM (6th) with the following participants:
 
-- {Jane Doe}
-- {John Doe}
-- {Jordan Doe}
-- {Theresa Doe}
-- {Todd Doe}
-- {Taylor Doe}
+- Adriana Granieri
+- Kathrine Greenberg
+- Sonal Sharma
+- Jenna McLean
+- Elisa Koon
+- Rachel Lin
 
 ## Tasks
 
