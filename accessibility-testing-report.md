@@ -11,7 +11,7 @@ User testing was conducted by Chelsea Smith on April 4th-April 6th between the t
 
 ## Tasks
 
-1. Click a "Buy Now" button on the buttons.html page
+1. Click the first "Buy Now" button on the buttons.html page
 2. Click the "Home" page link on the header.html page
 3. Click the "Keep Shopping" button on the cart.html page
 
