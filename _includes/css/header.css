@@ -38,6 +38,7 @@ header {
 	text-decoration: none;
 	padding: .5rem;
 	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
 	text-transform: uppercase;
 	font-family: "Creepster", sans-serif;
 }
@@ -62,11 +63,10 @@ header {
 
 .logo{
 	max-width: 40%;
-	display: block;
+	display: inline;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
     margin-left: 5%;
-    margin-right: auto;
 }
 
 .masthead {
