@@ -179,3 +179,8 @@ dt {
 dd {
 	display: block;
 }
+
+.center {
+	text-align: center;
+	display: block;
+}
