@@ -36,7 +36,6 @@ header {
 	width: 40px;
 	position: absolute;
 	top: 10px;
-	right: 5%;
 	background: white url('../images/nav-icon.svg') no-repeat center center;	
 }
 
@@ -48,7 +47,7 @@ header {
 	text-align: center;
 	color: #00F60B;
 	text-decoration: none;
-	padding: 1rem;
+	padding: 0rem;
 	border-top: 1px solid #ffffff;
 	text-transform: uppercase;
 	font-family: "Creepster", sans-serif;
