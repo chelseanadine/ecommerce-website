@@ -1,14 +1,14 @@
 ---
 ---
 
-{% include css/buttons.css%}
-{% include css/footer.css%}
-{% include css/forms.css%}
-{% include css/header.css%}
-{% include css/list-group.css%}
-{% include css/main.css%}
-{% include css/media-object.css%}
-{% include css/product-list.css%}
-{% include css/promos.css%}
-{% include css/typography.css%}
+{% include css/buttons.css %}
+{% include css/footer.css %}
+{% include css/forms.css %}
+{% include css/header.css %}
+{% include css/list-group.css %}
+{% include css/main.css %}
+{% include css/media-object.css %}
+{% include css/product-list.css %}
+{% include css/promos.css %}
+{% include css/typography.css %}
 /* Make the same order as your includes in your default.html*/
