@@ -13,16 +13,72 @@
   - Background gray: #E6E6E6 - rgba(230,230,230,1.00)
 */
 
-footer{
-	display: block;
-	background-color: #666;
-	color: #00F60B;
-	text-decoration: none;
-	padding: 1rem;
-}
-
 .copyright{
 	font-family: 'Creepster', sans-serif;
 	width: 100%;
 	margin: 1rem auto;
+}
+
+.footer {
+  background-color: #666666;
+}
+
+.footer-copyright,
+.footer-links {
+  text-align: center;
+}
+
+.footer-links a,
+.footer-links a:link,
+.footer-links a:visited {
+  border: 0;
+}
+
+.icon {
+	display: inline-block;
+
+	background: transparent none no-repeat center center;
+	background-size: contain;
+
+	vertical-align: middle;
+}
+
+.i-16 {
+	height: 16px;
+	width: 16px;
+}
+
+.i-32 {
+	height: 32px;
+	width: 32px;
+}
+
+.icon-link {
+	display: block;
+	color: #E6E6E6;
+	text-decoration: none;
+}
+
+.icon-label {
+	border-bottom: 1px solid rgba(191,174,255,1.00);
+}
+
+.i-facebook {
+	background-image: url("../images/facebook.svg");
+}
+
+.i-twitter {
+	background-image: url("../images/twitter.svg");
+}
+
+@media only screen and (min-width: 50em) {
+
+  .footer-copyright {
+    text-align: left;
+  }
+
+  .footer-links {
+    text-align: right;
+  }
+
 }
