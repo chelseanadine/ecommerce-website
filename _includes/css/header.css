@@ -72,7 +72,7 @@ header {
 }
 
 .logo{
-	width: auto;
+	max-width: 50%;
 	display: block;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
