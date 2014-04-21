@@ -28,17 +28,6 @@ header {
 	text-align: justify;
 }
 
-.nav-btn,
-.nav-btn:link,
-.nav-btn:visited{
-	display: block;
-	height: 40px;
-	width: 40px;
-	position: absolute;
-	top: 10px;
-	background: white url('../images/nav-icon.svg') no-repeat center center;	
-}
-
 .nav a, 
 .nav a:link,
 .nav a:visited{
