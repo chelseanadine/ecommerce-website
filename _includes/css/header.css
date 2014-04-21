@@ -31,7 +31,7 @@ header {
 .nav a, 
 .nav a:link,
 .nav a:visited{
-	display: inline;
+	display: block;
 	background-color: #666666;
 	text-align: center;
 	color: #00F60B;
