@@ -31,7 +31,7 @@ header {
 .nav a, 
 .nav a:link,
 .nav a:visited{
-	display: block;
+	display: inline-block;
 	background-color: #666666;
 	text-align: center;
 	color: #00F60B;
@@ -53,7 +53,7 @@ header {
 }
 
 .nav-top[data-state="expanded"]{
-	display: inline;
+	display: inline-block;
 }
 
 .nav-top{
