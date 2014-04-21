@@ -68,3 +68,54 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+.masthead {
+  background-color: #666666;
+}
+
+.logo {
+  margin: 0 auto;
+  max-width: 256px;
+}
+
+@media only screen and (min-width: 50em) {
+
+.logo {
+	margin: 0;
+}
+
+}
+
+.nav {
+  margin-top: 0;
+  text-align: right;
+}
+
+.nav a {
+  display: inline-block;
+  margin: 0 0.4em;
+}
+
+@media only screen and (min-width: 50em) {
+
+.nav {
+   margin-top: 0;
+   text-align: right;
+}
+
+}
+
+.current {
+	background-color: black;
+}
+
+.banner {
+	background: #000000 url("../images/banner.jpg") no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	padding: 5rem 1rem 1rem;
+}
+
+.banner h2 {
+	color: #fff;
+}
