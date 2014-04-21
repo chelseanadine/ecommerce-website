@@ -18,7 +18,7 @@ header {
 	background-color: #666;
 	color: #FF8F13;
 	text-decoration: none;
-	padding: 1rem;
+	padding: 0rem;
 }
 
 .main {
@@ -31,7 +31,7 @@ header {
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited{
-	display: inline;
+	display: block;
 	height: 40px;
 	width: 40px;
 	position: absolute;
@@ -42,7 +42,7 @@ header {
 .nav a, 
 .nav a:link,
 .nav a:visited{
-	display: inline;
+	display: block;
 	background-color: #666666;
 	text-align: center;
 	color: #00F60B;
@@ -64,7 +64,7 @@ header {
 }
 
 .nav-top[data-state="expanded"]{
-	display: inline;
+	display: block;
 }
 
 .nav-top{
