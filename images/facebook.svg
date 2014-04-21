@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 216 216" enable-background="new 0 0 216 216" xml:space="preserve">
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="108" cy="108" r="104.6"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill="#E19FFF" d="M182.6,12.5l-4.7,32.1c0,0-27.9-7.1-32.6,4.7c0,0-0.5,28.3,0,28.8h33.5
+		l-2.8,29.8h-30.9V216h-40.9V107.9H83.5V77.2h20.8V41.3c0,0,4.2-23.6,25-28.8C129.3,12.5,137.8,5.8,182.6,12.5z"/>
+</g>
+<g>
+	<defs>
+		<circle id="SVGID_3_" cx="108" cy="108" r="104.6"/>
+	</defs>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  overflow="visible"/>
+	</clipPath>
+	<circle clip-path="url(#SVGID_4_)" fill="none" stroke="#E19FFF" stroke-miterlimit="10" cx="108" cy="108" r="104.6"/>
+</g>
+</svg>
