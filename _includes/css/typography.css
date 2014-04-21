@@ -32,6 +32,7 @@ blockquote, table, hr {
 .zetta {
   font-size: 2.0273rem;
   line-height: 1.4305;
+  text-decoration: none;
 }
 
 h1, .exa {
